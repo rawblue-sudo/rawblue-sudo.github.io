@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width:100%;
+  display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100vh 100vh 100px;
+    grid-template-areas:
+        "h h h h h h h h h h h h"
+        "c c c c c c c c c c c c"
+        "f f f f f f f f f f f f";
+}
+
+.section {
+  grid-area: h;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.header {
+  min-height: 100vh;
+  justify-content: inherit;
+  align-items: inherit;
+  background-image: url(./Mano.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.social {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.fab {
+  padding: 1.2em;
+  font-size: 2em;
+  margin: 5px 2px;
+  color: #f0ebe6;
+
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+
+
+}
+
+.logo {
+  font-family: 'Avenir Next', 'Avenir', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #f0ebe6;
+}
+
+.logo img {
+  width: 70%;
+  padding-left: 10%
+
+}
+
+.buttons {
+  font-family: 'Avenir Next', 'Avenir', sans-serif;
+  font-size: 0.7em;
+  font-weight: 500;
+  color: #f0ebe6;
+  border-color: inherit;
+  line-height: 3em;
+  padding-right: 20%;
+  white-space: nowrap;
+}
+
+.button {
+  text-align: center;
+  border: 2px solid;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-bottom: 7px;
+}
+
+.button:hover {
+  background-color: #f0ebe6;
+  color: #302d2c;
+}
+
+.noi {
+  grid-area: c;
+  width: 100%;
+  background-color: white;
+}
+
+.pizza {
+  display: block;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 30%;
+
+}
+
+.footer {
+  grid-area: f;
+  display: flex;
+  width: 100%;
+  background-color: #302d2c;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+  .pizza {
+    width: 90%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .logo img {
+    width: 50%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .logo img {
+    width: 50%;
+  }
+}
