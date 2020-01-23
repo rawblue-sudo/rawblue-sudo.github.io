@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+    --white: #f0ebe6;
+  }
+
 .page {
   width:100%;
   display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100vh 100vh 100px;
+    grid-template-rows: 100vh 120vh 100px;
     grid-template-areas:
         "h h h h h h h h h h h h"
         "c c c c c c c c c c c c"
@@ -21,6 +25,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  scroll-behavior: smooth;
 }
 
 
@@ -43,7 +48,7 @@
   padding: 1.2em;
   font-size: 2em;
   margin: 5px 2px;
-  color: #f0ebe6;
+  color: var(--white);
 
 }
 .overlay {
@@ -56,7 +61,7 @@
   font-family: 'Avenir Next', 'Avenir', sans-serif;
   font-size: 2em;
   font-weight: 700;
-  color: #f0ebe6;
+  color: var(--white);
 }
 
 .logo img {
@@ -69,7 +74,7 @@
   font-family: 'Avenir Next', 'Avenir', sans-serif;
   font-size: 0.7em;
   font-weight: 500;
-  color: #f0ebe6;
+  color: var(--white);
   border-color: inherit;
   line-height: 3em;
   padding-right: 20%;
@@ -81,33 +86,72 @@
   border: 2px solid;
   padding-left: 7px;
   padding-right: 7px;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 
-.button:hover {
-  background-color: #f0ebe6;
+a:link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:link:hover {
   color: #302d2c;
 }
 
-.noi {
+.button:hover {
+  background-color: var(--white);
+  color: #302d2c;
+}
+
+.Storia {
   grid-area: c;
+  display: flex;
+  flex-direction: row;
   width: 100%;
   background-color: white;
 }
 
+.Descrizione {
+  font-family: 'Calligraffitti', serif ;
+  text-align: center;
+}
+
+.Descrizione > p {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .pizza {
   display: block;
-  margin-top: 5%;
-  margin-left: 10%;
+  margin: 5% auto auto 5%;
   width: 30%;
-
 }
 
 .footer {
+  color: var(--white);
   grid-area: f;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
   background-color: #302d2c;
+}
+
+.footer img {
+  padding-left: 2em;
+  align-self: center;
+  height: 50%;
+}
+
+.footer > p {
+  padding-left: 2.5em;
+  align-self: center;
+}
+
+.footer > .fab {
+  align-self: center;
+  font-size: 2em;
+  color: var(--white);
 }
 
 
@@ -115,6 +159,21 @@
 @media only screen and (max-width: 450px) {
   .pizza {
     width: 90%;
+  }
+  .Storia {
+    flex-direction: column;
+  }
+  .Storia > h1 {
+    padding-top: 1em;
+  }
+  .footer > .fab {
+    align-self: center;
+    font-size: 2em;
+    margin-right: -1em;
+    color: var(--white);
+  }
+  .mobile {
+    display: none;
   }
 }
 
@@ -129,5 +188,9 @@
 @media only screen and (min-width: 961px) {
   .logo img {
     width: 50%;
+  }
+  .page {
+      grid-template-rows: 100vh 100vh 100px;
+
   }
 }
