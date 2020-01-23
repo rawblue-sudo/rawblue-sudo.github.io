@@ -94,7 +94,15 @@ a:link {
   color: var(--white);
 }
 
-a:link:hover {
+a:hover {
+  color: #302d2c;
+}
+
+a:visited {
+  color: var(--white);
+}
+
+a:visited:hover {
   color: #302d2c;
 }
 
