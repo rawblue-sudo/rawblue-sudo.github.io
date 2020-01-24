@@ -121,13 +121,15 @@ a:visited:hover {
 }
 
 .Descrizione {
-
+  padding-top: 1em;
+  flex: 1;
   align-self: center;
   font-family: 'Calligraffitti', serif ;
   text-align: center;
 }
 
 .Descrizione > p {
+  align-self: center;
   overflow: hidden;
   max-width: 75ch;
   padding-top: 2em;
@@ -176,7 +178,7 @@ a:visited:hover {
   .Storia {
     flex-direction: column;
   }
-  
+
   .footer > .fab {
     align-self: center;
     font-size: 2em;
