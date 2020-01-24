@@ -115,16 +115,21 @@ a:visited:hover {
   grid-area: c;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
   background-color: white;
 }
 
 .Descrizione {
+
+  align-self: center;
   font-family: 'Calligraffitti', serif ;
   text-align: center;
 }
 
 .Descrizione > p {
+  overflow: hidden;
+  max-width: 75ch;
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -171,9 +176,7 @@ a:visited:hover {
   .Storia {
     flex-direction: column;
   }
-  .Storia > h1 {
-    padding-top: 1em;
-  }
+  
   .footer > .fab {
     align-self: center;
     font-size: 2em;
