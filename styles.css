@@ -8,11 +8,15 @@
     --white: #f0ebe6;
   }
 
+html {
+  scroll-behavior: [ auto | smooth ];
+}
+
 .page {
   width:100%;
   display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100vh 120vh 100px;
+    grid-template-rows: 100vh auto 100px;
     grid-template-areas:
         "h h h h h h h h h h h h"
         "c c c c c c c c c c c c"
@@ -25,7 +29,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  scroll-behavior: smooth;
 }
 
 
@@ -131,7 +134,6 @@ a:visited:hover {
 .Descrizione > p {
   align-self: center;
   overflow: hidden;
-  max-width: 75ch;
   padding-top: 2em;
   padding-bottom: 2em;
 }

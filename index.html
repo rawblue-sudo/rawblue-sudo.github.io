@@ -31,7 +31,7 @@
             <img src='logo_final_white.png' alt='Matas Pizza & Tagliere'>
           </div>
           <div class='buttons'>
-            <p class='button'><a href='#chef'>Chef e team</a></p>
+            <p class='button chef'><a href='#chef'>Chef e team</a></p>
             <p class='button'>Produttori</p>
             <p class='button'>Galleria</p>
             <p class='button'>Prenotazioni</p>
@@ -42,8 +42,17 @@
         <img class='pizza' src='Pizza.jpg' alt='Matas Pizza & Tagliere'>
         <div class='Descrizione'>
           <h1 id='chef'>La nostra storia</h1>
-          <p> Da noi si mangia non solo la pizza buona, ma si può anche assaggiare
-          dei prodotti locali serviti sui nostri taglieri</p>
+          <p> Stefano Morini e Antonio De Iure insieme nel progetto MATAS54, ideato sull’onda del rilancio del quartiere Guasco di Ancona.
+          </p>
+          <p>Con l’apporto di Sandra Paciaroni del vicino Guasco Caffe’ e lo studio di architettura Sardellini Marasca il progetto e’ diventato realta’, con l'apertura prevista per marzo 2020.
+          </p>
+          <p><strong>MATAS54</strong> riflette la visione comune di Stefano e Antonio: Stefano con la sua passione e il mestiere nel sapere offrire prodotti di alta qualita’ in un ambiente conviviale, confermati dal successo di locali come Osteria del Tempo Perso a Senigallia, Via Gianelli 3 e oggi il Guasco Caffe'; Antonio che, appreso il mestiere da un business familiare di carni e salumi artigianali ne ha fatto la passione di una vita a cui rivenire dopo un percorso professionale internazionale nel settore finanziario portando al <strong>MATAS54</strong> le tendenze del fooding e lifestyle.
+          </p>
+          <p>Enzo Ercole, il nostro pizzaiolo, è un pilastro del team <strong>MATAS54</strong>. Enzo, terza generazione di pizzaioli, cresciuto ''Al Vicoletto da Michele'' a fianco del padre nella tradizione dell'arte della pizza, ha successivamente lavorato all'estero (Londra)
+          </p>
+          <img class='pizza' src='Enzo.png' alt='Enzo, nostro pizzaiolo'>
+          <p>Dalla primavera all'autunno <strong>MATAS54</strong> si apre sulla Piazza San Francesco, sotto le stelle e ai piedi del maestoso portale della chiesa che la sovrasta.
+          </p>
         </div>
       </div>
       <div class='footer'>
@@ -55,4 +64,10 @@
       </div>
     </div>
   </body>
+  <script>
+    document.querySelector('.button chef').addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector('.chef').scrollIntoView({ behavior: 'smooth' });
+        });
+  </script>
 </html>
