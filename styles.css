@@ -204,8 +204,5 @@ a:visited:hover {
   .logo img {
     width: 50%;
   }
-  .page {
-      grid-template-rows: 100vh 100vh 100px;
-
-  }
+  
 }
