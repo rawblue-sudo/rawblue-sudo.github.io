@@ -124,7 +124,7 @@ a:visited:hover {
 }
 
 .Descrizione {
-  padding-top: 1em;
+  padding-top: 2em;
   flex: 1;
   align-self: center;
   font-family: 'Calligraffitti', serif ;
@@ -134,8 +134,8 @@ a:visited:hover {
 .Descrizione > p {
   align-self: center;
   overflow: hidden;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  text-align: justify;
+  padding: 2em;
 }
 
 .pizza {
@@ -204,5 +204,8 @@ a:visited:hover {
   .logo img {
     width: 50%;
   }
-  
+  .storia {
+    float: left;
+    padding-bottom: 2em;
+  }
 }
