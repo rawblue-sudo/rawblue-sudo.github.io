@@ -171,6 +171,10 @@ a:visited:hover {
   color: var(--white);
 }
 
+#snipcart {
+  visibility: none;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 850px) {
   .menu-body {
