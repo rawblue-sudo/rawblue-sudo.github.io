@@ -172,7 +172,7 @@ a:visited:hover {
 }
 
 #snipcart {
-  visibility: none;
+  width: 0px;
 }
 
 /* Mobile Styles */
