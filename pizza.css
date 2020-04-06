@@ -179,4 +179,14 @@ a:visited:hover {
   .super {
     font-size: 50px;
   }
+
+  .footer > .fab {
+    align-self: center;
+    font-size: 2em;
+    margin-right: -1em;
+    color: var(--white);
+  }
+  .mobile {
+    display: none;
+  }
 }
