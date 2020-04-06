@@ -117,7 +117,6 @@ a:visited:hover {
   justify-content: center;
   align-content: space-between;
   width: 100%;
-  background-color: var(--white);
 }
 
 .Descrizione {
@@ -215,7 +214,6 @@ a:visited:hover {
     width: 50%;
   }
   .enzo {
-    float: left;
-    padding-bottom: 2em;
+    display: none;
   }
 }
