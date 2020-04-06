@@ -113,6 +113,10 @@
   font-family: arial;
 }
 
+button {
+  background-color: transparent;
+}
+
 .snipcart-checkout,
 .home {
   border: none;
@@ -144,10 +148,6 @@ a:link {
 
 a:hover {
   color: #302d2c;
-}
-
-a:visited {
-  color: var(--white);
 }
 
 a:visited:hover {
