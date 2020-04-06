@@ -29,6 +29,7 @@
   background-image: url(./pizza-small.png);
   background-attachment: fixed;
   background-size: cover;
+  -webkit-background-size: cover;
   background-position: 50% 50%;
 }
 
