@@ -186,12 +186,6 @@ a:visited:hover {
     bottom: -5px;
   }
 
-  .header {
-    background-position: center;
-    background-attachment: initial;
-    background-image: url(./pizza-mobile.png);
-  }
-
   .super {
     margin-top: 10px;
     font-size: 40px;
