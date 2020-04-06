@@ -188,6 +188,8 @@ a:visited:hover {
 
   .header {
     background-position: center;
+    background-attachment: initial;
+    background-image: url(./pizza-mobile.png);
   }
 
   .super {
