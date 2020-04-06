@@ -94,6 +94,7 @@
 .ordina {
   float: right;
   color: rgb(92, 92, 92);
+  background-color: none;
   position: relative;
   left: 55px;
   bottom: 20px;
@@ -173,7 +174,7 @@ a:visited:hover {
   }
 
   .header {
-    height: 50vh;
+    background-position: center;
   }
 
   .super {
