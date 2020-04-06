@@ -187,7 +187,7 @@ a:visited:hover {
   }
 
   .header {
-    background-attachment: initial;
+    background-attachment: scroll;
     background-image: url(./pizza-mobile.png);
   }
 
