@@ -203,4 +203,11 @@ a:visited:hover {
     color: var(--white);
     display: none;
   }
+  .menu {
+    float: right;
+    position: absolute;
+    top: 220px;
+    right: 10px;
+    color: rgb(53, 53, 53);
+  }
 }
