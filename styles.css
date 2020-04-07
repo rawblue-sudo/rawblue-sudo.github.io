@@ -206,6 +206,10 @@ a:visited:hover {
   .logo img {
     width: 50%;
   }
+
+  .enzo {
+    display: none;
+  }
 }
 
 /* Desktop Styles */

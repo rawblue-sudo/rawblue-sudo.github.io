@@ -31,7 +31,6 @@
   background-size: cover;
   -webkit-background-size: cover;
   background-position: 50% 50%;
-  z-index: -1000;
 }
 
 .inbetween {
@@ -206,7 +205,7 @@ a:visited:hover {
   .menu {
     float: right;
     position: absolute;
-    top: 220px;
+    top: 250px;
     right: 10px;
     color: rgb(53, 53, 53);
   }
