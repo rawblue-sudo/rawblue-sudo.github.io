@@ -202,6 +202,9 @@ a:visited:hover {
     color: var(--white);
     display: none;
   }
+  .header {
+    background-image: none;
+  }
   .menu {
     float: right;
     position: absolute;
