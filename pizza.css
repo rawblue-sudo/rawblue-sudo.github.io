@@ -187,7 +187,9 @@ a:visited:hover {
 
   .header {
     background-attachment: scroll;
-    background-image: url(./pizza-mobile.png);
+    background-image: url(./pizzaiolo.gif);
+    background-repeat: no-repeat;
+    background-size: 100px 300px;
   }
 
   .super {
@@ -201,9 +203,6 @@ a:visited:hover {
     margin-right: -1em;
     color: var(--white);
     display: none;
-  }
-  .header {
-    background-image: none;
   }
   .menu {
     float: right;
