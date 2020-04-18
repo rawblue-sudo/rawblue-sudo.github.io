@@ -34,12 +34,15 @@
           </div>
           
           <nav class='buttons'>
-            <a href='#chef'><p class='button chef'>Chef e team</p></a>
-            <a href="pizza.html"><p class='button'>Ordina</p></a>
+            <a href='#storia'><p class='button'>Nostra storia</p></a>
+            <a href='locale.html#locale'><p class='button'>Il locale</p></a>
+            <a href="pizza.html"><p class='button'>Menu</p></a>
+            <a href='https://app.resmio.com/matas-54/menu-widget?theme=light'><p class='button'>Ordina</p></a>
+            
         </nav>
         </div>
       </header>
-      <div class='Storia' id='chef'>
+      <div class='Storia' id='storia'>
         <img class='pizza' src='Pizza.jpg' alt='Matas Pizza & Tagliere'>
         
         <div class='Descrizione'>
@@ -74,7 +77,7 @@
   <script>
     document.querySelector('.button chef').addEventListener('click', function(e) {
           e.preventDefault();
-          document.querySelector('.chef').scrollIntoView({ behavior: 'smooth' });
+          document.querySelector('.storia').scrollIntoView({ behavior: 'smooth' });
         });
   </script>
 </html>

@@ -146,6 +146,21 @@ a:visited:hover {
   width: 90%;
 }
 
+.locale {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.padded {
+  margin: 10px 10% 0px 10%;
+}
+
+.padded > h1 {
+  padding-top: -10%;
+  padding-bottom: 5%;
+}
+
 .footer {
   color: var(--white);
   grid-area: f;
