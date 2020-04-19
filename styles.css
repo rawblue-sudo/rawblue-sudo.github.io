@@ -77,6 +77,12 @@ html {
   margin: 5px 2px;
   color: var(--white);
 }
+.insta {
+  color: var(--white);
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
@@ -332,10 +338,9 @@ a:visited:hover {
   .navbar {
     display: none;
   }
-  .footerdiv {
-    display: none;
-  }
-  .desktop {
+  .footerdiv,
+  .desktop,
+  .insta {
     display: none;
   }
 }
