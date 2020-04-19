@@ -163,9 +163,11 @@ a:visited:hover {
 }
 
 .placeholder {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   width: 40%;
+  padding-left: 3em;
   justify-content: center;
   align-content: center;
 }
@@ -331,6 +333,9 @@ a:visited:hover {
     display: none;
   }
   .footerdiv {
+    display: none;
+  }
+  .desktop {
     display: none;
   }
 }
