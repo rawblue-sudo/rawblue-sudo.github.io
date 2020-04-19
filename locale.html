@@ -76,9 +76,9 @@
 
 <p>Un luogo giovane e informale, facile ma non banale, dove sentirsi a proprio agio, un luogo anche internazionale, un pò <em>hipster</em> e pronto ad accogliere chiunque.</p>
 
-<p>View more</p>
+<p id="mostra" onclick="collapse()">Di più</p>
 
-<p hidden>Il filo conduttore del progetto è stato di far emergere quest’anima tentando di generare e comunicare una nuova esperienza urbana e gastronomica che fosse in grado di coop-tare l’avventore dalla strada e trasportarlo in un nuovo mondo.
+<p id="piu">Il filo conduttore del progetto è stato di far emergere quest’anima tentando di generare e comunicare una nuova esperienza urbana e gastronomica che fosse in grado di coop-tare l’avventore dalla strada e trasportarlo in un nuovo mondo.
   L’immagine è rinnovata già sulla via dove da una grande porta bilico trasparente si in-travede la nuova distribuzione interna e la grande scritta a tubo neon sul fondo della pri-ma sala.
   La prima sfida di questo progetto è stata proprio di appropriarsi e caratterizzare la prima sala che, da sempre, è stata solo luogo di passaggio, mentre oggi diventa il cuore pulsante del locale.
   Una nuova parete in ferro grezzo la taglia in diagonale, scandisce lo spazio dedicato alla cucina, nascondendone alcune parti più di servizio e scoprendo quella più significativa, ovvero il mondo del pizzaiolo e del nuovo forno Moretti Neapolis dal design innovativo.
@@ -109,4 +109,17 @@
           document.querySelector('.locale').scrollIntoView({ behavior: 'smooth' });
         });
   </script>
+  <script>
+    function collapse() {
+      let x = document.getElementById("piu");
+      let y = document.getElementById("mostra");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        y.innerHTML = "Di meno";
+      } else {
+        x.style.display = "none";
+        y.innerHTML = "Di più";
+      }
+    }
+    </script>
 </html>

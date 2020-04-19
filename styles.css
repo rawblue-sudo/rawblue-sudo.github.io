@@ -203,6 +203,10 @@ a:visited:hover {
   border: 1px solid var(--white);
 }
 
+#piu {
+  display: none;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #302d2c;
@@ -281,6 +285,10 @@ a:visited:hover {
   }
   .ordina2 {
     font-weight: 800;
+  }
+
+  .padded > p {
+    margin: 0px;
   }
 }
 
