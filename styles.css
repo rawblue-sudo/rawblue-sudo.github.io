@@ -298,12 +298,12 @@ a:visited:hover {
   }
 
   .header {
-    background-size: 30em;
-    background-position: bottom 5em right 0px;
+    background-size: 31em;
+    background-position: top;
   }
 
   .logo img {
-    width: 100%;
+    width: 90%;
   }
 
   .pizza {
