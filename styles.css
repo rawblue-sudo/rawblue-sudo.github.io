@@ -312,6 +312,14 @@ a:visited:hover {
   .Storia {
     flex-direction: column;
   }
+  .Asporto {
+    background-color: black;
+    color: var(--white);
+  }
+
+  .Asporto a {
+    color: var(--white);
+  }
 
   .Asporto > h1 {
     padding-bottom: 0.2em;
