@@ -313,6 +313,10 @@ a:visited:hover {
     flex-direction: column;
   }
 
+  .Asporto > h1 {
+    padding-bottom: 0.2em;
+  }
+
   .footerdiv {
     height: 3em;
   }
