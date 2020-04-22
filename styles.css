@@ -259,13 +259,21 @@ a:visited:hover {
   padding-bottom: 2em;
 }
 
+.Asporto > h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  float: left;
+}
+
 .servizio {
   width: 10%;
   float: left;
 }
 
 .mappa {
+  float: left;
   width: 70%;
+  border-radius: 5%;
   margin-bottom: 2em;
 }
 
@@ -341,9 +349,18 @@ a:visited:hover {
     padding-bottom: 0.5em;
   }
 
+  .Asporto > h2 {
+    float: none;
+  }
+
   .servizio {
     width: 20%;
     padding-left: 1em;
+  }
+
+  .mappa {
+    width: 90%;
+    float: none;
   }
 
   .footerdiv {
