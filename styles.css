@@ -304,11 +304,10 @@ a:visited:hover {
   grid-area: f;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
   background-color: #302d2c;
 }
-
 .footer img {
   padding-left: 2em;
   align-self: center;
@@ -320,8 +319,9 @@ a:visited:hover {
   align-self: center;
 }
 
-.footer > .fab {
+.footer .fab {
   align-self: center;
+  padding-bottom: 1em;
   font-size: 2em;
   color: var(--white);
 }
