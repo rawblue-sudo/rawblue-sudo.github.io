@@ -185,7 +185,7 @@ a:visited:hover {
 .avatar {
   width: 20%;
   float: right;
-  border-radius: 50%;
+  border-radius: 5%;
   margin-right: 2em;
 }
 
