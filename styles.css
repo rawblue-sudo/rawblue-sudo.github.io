@@ -392,11 +392,12 @@ a:visited:hover {
   .av {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
   .avatar {
     display: block;
     float: none;
-    margin: 5% auto auto auto;
+    margin: 5% auto 5px auto;
     border-radius: 5%;
     width: 40%;
   }
@@ -434,6 +435,9 @@ a:visited:hover {
     margin-left: 10%;
     float: none;
     margin-right: 10%;
+  }
+  .av {
+    display: none;
   }
 }
 
