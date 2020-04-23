@@ -199,6 +199,10 @@ a:visited:hover {
   margin-left: 2em;
 }
 
+.pad {
+  margin-bottom: 2em;
+}
+
 .enzo {
   display: block;
   margin: 5% auto auto 5%;
