@@ -7,9 +7,18 @@
 :root {
   --white: #f0ebe6;
 }
-
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("https://fonts.googleapis.com/css2?family=Montserrat") format("woff2"),
+    url("https://fonts.googleapis.com/css2?family=Montserrat")
+      format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Fallback, sans-serif;
   scroll-behavior: smooth;
 }
 
