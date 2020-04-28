@@ -124,6 +124,11 @@
         <div class="footerdiv"></div>
     </div>
   </body>
-  
+  <script>
+    document.querySelector('a[href^="#"]').addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector('#asporto').scrollIntoView({ behavior: 'smooth' });
+        });
+  </script>
   
 </html>
