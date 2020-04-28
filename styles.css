@@ -478,6 +478,8 @@ a:visited:hover {
     display: none;
   }
   .Asporto > h1 {
-    margin-left: 0px;
+    margin-left: calc(10% - 45%);
+    -moz-margin-left: calc(10% - 45%);
+    -webkit-margin-left: calc(10% - 45%);
   }
 }
