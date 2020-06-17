@@ -183,15 +183,15 @@
           </footer>
         <div class="footerdiv"></div>
       </div>
-  </body>
-  <script>
+  
+  <script defer>
     document.querySelector('a[href^="#"]').addEventListener('click', function(e) {
           e.preventDefault();
           document.querySelector('#locale').scrollIntoView({ behavior: 'smooth' });
         });
   </script>
 
-<script type="application/ld+json">
+<script defer type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "Restaurant",
@@ -222,5 +222,5 @@
     ]
   }
   </script>
-  
+  </body>
 </html>
