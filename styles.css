@@ -17,6 +17,16 @@
   font-weight: 400;
   font-display: swap;
 }
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url("https://fonts.googleapis.com/css2?family=Roboto"), format("woff2"),
+    url("https://fonts.googleapis.com/css2?family=Roboto")
+      format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
 html {
   font-family: "Montserrat", Fallback, sans-serif;
   scroll-behavior: smooth;
@@ -170,7 +180,9 @@ a:visited:hover {
 }
 
 .Descrizione > p {
-  font-family: "Calligraffitti", serif;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  line-height: 1.5;  
   align-self: center;
   overflow: hidden;
   text-align: justify;
