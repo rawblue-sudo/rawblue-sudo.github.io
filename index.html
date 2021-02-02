@@ -122,10 +122,10 @@
       const y = document.getElementById("mostra");
       if (window.getComputedStyle(x, null).getPropertyValue("display") === "none") {
         x.style.display = "block";
-        y.innerHTML = "Mostra di meno";
+        y.innerText = "Mostra di meno";
       } else {
         x.style.display = "none";
-        y.innerHTML = "Mostra di più";
+        y.innerText = "Mostra di più";
       }
     }
     const button = document.querySelector("#mostra");
