@@ -115,12 +115,12 @@
   <p>Un luogo giovane e informale, facile ma non banale, dove sentirsi a proprio agio, un luogo anche internazionale, un pò <em>hipster</em> e pronto ad accogliere chiunque.</p>
 
   <p>Dalla primavera all’autunno <em>MATAS 54</em> si apre sulla piazza San Francesco, ai piedi del maestoso portale della Chiesa che la sovrasta, in un ambiente raccolto di unica bellezza.</p>
-  <span id="mostra" onclick="collapse()">Mostra di più</span>
+  <span id="mostra">Mostra di più</span>
   <script>
     function collapse() {
-      let x = document.getElementById("piu");
-      let y = document.getElementById("mostra");
-      if (x.style.display === "none") {
+      const x = document.getElementById("piu");
+      const y = document.getElementById("mostra");
+      if (window.getComputedStyle(x, null).getPropertyValue("display") === "none") {
         x.style.display = "block";
         y.innerHTML = "Mostra di meno";
       } else {
@@ -128,6 +128,8 @@
         y.innerHTML = "Mostra di più";
       }
     }
+    const button = document.querySelector("#mostra");
+    button.addEventListener("click", collapse);
     </script>
   
   
