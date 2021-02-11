@@ -188,7 +188,7 @@
   <script>
     document.querySelector('a[href^="#"]').addEventListener('click', function(e) {
           e.preventDefault();
-          e.scrollIntoView({ behavior: 'smooth' });
+          document.querySelector('#locale').scrollIntoView({ behavior: 'smooth' });
         });
   </script>
 
