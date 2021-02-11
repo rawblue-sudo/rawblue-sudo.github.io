@@ -61,6 +61,7 @@ html {
   background-size: 35rem;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .social {
