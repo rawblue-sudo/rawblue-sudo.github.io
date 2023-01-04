@@ -314,6 +314,8 @@ a:visited:hover {
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-evenly;
   overflow: hidden;
   background-color: #302d2c;
   position: fixed;
